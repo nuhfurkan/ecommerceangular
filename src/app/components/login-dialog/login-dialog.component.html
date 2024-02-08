@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>Log In to MyShop</h1>
+<div mat-dialog-content class="flex flex-col">
+  <div>
+    <mat-form-field>
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="email">
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput [(ngModel)]="pass">
+    </mat-form-field>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button (click)="onLoginClick()" cdkFocusInitial>Logon</button>
+</div>

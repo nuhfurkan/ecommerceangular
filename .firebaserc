@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-shop-app-64553": {
+      "hosting": {
+        "shop-app": [
+          "angular-shop-app-64553"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-shop-app-64553"
+  }
+}

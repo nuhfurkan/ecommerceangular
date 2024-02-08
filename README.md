@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Note
+This project is an implementation of youtube tutorial given in the following link:
+https://www.youtube.com/watch?v=Kbauf9IgsC4&list=PL19Mw2d5h9llcTkENeP1sLH_1azLEXpAQ&index=2
+
+## My Contribution to Project
+
+There are a number of features I have added later,
+
+1. Guards for singed in and not-signed in users
+2. User sign-in and sign-up
+3. Firebase integration
+4. Created Module for Material imports
+5. Minor changes in the styling
+6. Minor changes in the project/file structure
+7. Extra Auth components etc.
+8. Fetch products from firebase firestore
